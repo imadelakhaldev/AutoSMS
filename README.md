@@ -19,7 +19,7 @@ auth_token = Twilio auth token.
 
 ```
 send_sms() method.
-Send an SMS message.
+Send an SMS message. Returns an AutoSMSMessage object containing message status, sent_date, and price.
 sender = From mobile phone, alpha-numeric ID, or shortcode.
 receiver = To mobile phone.
 content = Plain/text message.
@@ -35,7 +35,7 @@ content = Plain/text message.
 
 ```
 send_mms() method.
-Send an MMS message.
+Send an MMS message. Returns an AutoSMSMessage object containing message status, sent_date, and price.
 sender = From mobile phone, alpha-numeric ID, or shortcode.
 receiver = To mobile phone.
 content = Plain/text message.
